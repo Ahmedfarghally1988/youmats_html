@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
-
 *,
 body,
 p,
@@ -11,9 +9,8 @@ h5,
 h6,
 p,
 a{
-    font-family: "Didact Gothic", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: century-gothic, sans-serif;
+  font-style: normal;
 }
 
 header{
@@ -72,6 +69,10 @@ header{
     background-color: rgb(13 19 28 / var(--tw-bg-opacity));
 }
 
+.bg-main-3{
+    background-color: #212844;
+}
+
 .border-color-main {
     --tw-border-opacity: 1;
     border-color: rgb(0 63 145 / var(--tw-bg-opacity));
@@ -118,7 +119,7 @@ header{
 
 .menu_main ul li{
     float: left;
-    line-height: 48px;
+    line-height: 52px;
 }
 
 .menu_main ul li a{
@@ -221,16 +222,18 @@ swiper-container {
   }
 
   .block_topCategory {
-    padding-bottom: 40px;
+    padding-bottom: 10px;
     width: 100%;
 }
 
 .img_top_gategory{
     width: 100%;
-    height: 145px;
+    height: 130px;
     overflow: hidden;
     display: flex;
     align-items: center;
+    border-radius: 100%;
+    background: #eee;
 }
 
 .img_top_gategory img{
@@ -275,7 +278,7 @@ swiper-container {
 .PrecastConcrete {
     min-height: 200px;
     background-color: red; /* For browsers that do not support gradients */
-    background-image: linear-gradient(#3D72B4, #eee);
+    background-image: linear-gradient(#060000, #3D72B4);
   }
 
   .h-81 {
@@ -291,3 +294,13 @@ swiper-container {
     transition: visibility 0.50s ease-out, opacity 0.50s ease-out,
     transform 0.50s ease-out;
 }
+
+.h-58{
+    height: 58px;
+}
+
+@media (min-width: 1200px) {
+    .container {
+      max-width: 1200px;
+    }
+  }
