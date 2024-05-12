@@ -1,0 +1,1178 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-SA">
+<head>
+    <title>Building Materials Store for all  Suppliers in KSA - YouMats Building Materials</title> 
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Building Materials: YouMats is one of the biggest building materials store for all suppliers  in Saudi Arabia. Providing you with a wide range of construction material supplies at the best prices. Contact us!">
+    <meta name="keywords" content="Building Materials"> 
+
+	<link rel="alternate" hreflang="en-SA" href="https://www.youmats.com/en" />
+    <meta name="robots" content="all" />
+    <link href="https://www.youmats.com/en" rel="canonical">
+    <link href="https://www.youmats.com/en" rel="home">
+
+    <meta content="en_SA" property="og:locale">
+    <meta content="YouMats" property="og:site_name">
+    <meta content="website" property="og:type">
+    <meta content="https://www.youmats.com/" property="og:url">
+    <meta content="Building Materials Store for all  Suppliers in KSA - YouMats Building Materials" property="og:title">
+    <meta content="Building Materials: YouMats is one of the biggest building materials store for all suppliers  in Saudi Arabia. Providing you with a wide range of construction material supplies at the best prices. Contact us!" property="og:description">
+    <meta content="" property="og:image">
+    <meta content="1200" property="og:image:width">
+    <meta content="630" property="og:image:height">
+    <meta content="https://www.instagram.com/" property="og:see_also">
+    <metacontent="https://www.youtube.com/" property="og:see_also">
+    <meta content="https://www.linkedin.com" property="og:see_also">
+    <meta content="https://www.facebook.com/" property="og:see_also">
+    <meta content="https://twitter.com/" property="og:see_also">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@">
+    <meta name="twitter:creator" content="@">
+    <meta name="twitter:title" content="Building Materials Store for all  Suppliers in KSA - YouMats Building Materials">
+    <meta name="twitter:description" content="Building Materials: YouMats is one of the biggest building materials store for all suppliers  in Saudi Arabia. Providing you with a wide range of construction material supplies at the best prices. Contact us!">
+    <meta name="twitter:image" content="">
+    <meta name="twitter:image:width" content="800">
+    <meta name="twitter:image:height" content="418">
+
+
+    <!---------------- files css -------------->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">    
+    <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
+    <link rel="stylesheet" href="css/flowbite.min.css" />
+    <link href="css/animate.min.css" rel="stylesheet">    
+    <link href="./output.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    
+</head>
+
+<body>
+
+<div class='pre-loader'>
+        <img class='loading-gif animate__animated animate__bounce' alt='loading' src="images/logo.png"/>    
+</div>
+
+<header>
+    <div class="container m-auto">
+        <div class="grid grid-cols-4 gap-4">
+            <div class="col-span-1">
+                <div class="logo_main text-left float-start pt-5">
+                    <a href="#" class="block">
+                        <img src="images/logo.png" class="max-w-none" alt="" title="" width="130">
+                    </a>
+                </div>
+                <div class="select_lang float-end pt-6 w-1/2">
+                    <a href="#" class="flex text-sm" data-toggle="modal">
+                        <img src="images/saudi-arabia.png" alt="" title="" width="24" class="max-w-none mr-2"> Arabic -  Ryadh  </a>
+                    <div role="dialog" id="modal-example" aria-hidden="false" style="display: flex;" class="modal fixed top-0 left-0 z-50 w-screen h-screen bg-black/30 flex items-center flex-col justify-center p-6 fade" tabindex="-1">
+                        <div class="absolute top-0 left-0 z-[0] w-full h-full" tabindex="-1" data-dismiss="modal"></div>
+
+                        <article
+                                class="modal-content flex flex-col relative m-0 rounded-md bg-white sm:my-16 lg:w-1/3 xl::w-1/4"
+                                aria-labelledby="modal-title" aria-describedby="modal-body">
+                            <header class="flex p-4 items-center justify-between">
+                                <h2 class="m-0 text-l max-w-[calc(100%_-_3rem)] font-bold">Select
+                                    Language</h2>
+                                <button type="button"
+                                        class="flex items-center justify-center w-8 h-8 rounded-full bg-transparent transition-colors duration-300 hover:bg-black/10"
+                                        data-dismiss="modal" aria-label="Close">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+                                         fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round"
+                                         stroke-linejoin="round" style="--size: 32rem;">
+                                        <line x1="18" y1="6" x2="6" y2="18" style="--size: 32rem;"></line>
+                                        <line x1="6" y1="6" x2="18" y2="18" style="--size: 32rem;"></line>
+                                    </svg>
+                                </button>
+                            </header>
+
+                            <main class="relative flex-[1_1_auto] p-4">
+                                <main class="grid w-full place-items-center">
+                                    <div x-data="select" class="relative w-full" @click.outside="open = false">
+                                        <button @click="toggle" :class="(open) && 'ring-blue-600'"
+                                                class="flex w-full items-center justify-between rounded bg-white p-2 ring-1 ring-gray-300">
+                                            <span x-text="(language == '') ? 'Choose language' : language"></span>
+                                            <i class="fas fa-chevron-down text-xl"></i>
+                                        </button>
+
+                                        <ul class="z-2 absolute mt-1 w-full rounded bg-gray-50 ring-1 ring-gray-300 z-50"
+                                            x-show="open">
+                                            <li class="cursor-pointer select-none p-2 hover:bg-gray-200 flex"
+                                                @click="setLanguage('Arabic')"><img src="images/saudi-arabia.png" alt=""
+                                                                                    title="" width="24"
+                                                                                    class="max-w-none"> Arabic
+                                            </li>
+                                            <li class="cursor-pointer select-none p-2 hover:bg-gray-200 flex"
+                                                @click="setLanguage('English')"><img src="images/saudi-arabia.png"
+                                                                                     alt="" title="" width="24"
+                                                                                     class="max-w-none"> English
+                                            </li>
+                                        </ul>
+                                        <div id="map"></div>
+                                    </div>
+                                </main>
+                            </main>
+
+                            <footer class="flex flex-shrink-0 flex-wrap items-center justify-end flex-row p-4 gap-1">
+                                <button type="button"
+                                        class="flex items-center justify-center px-4 font-medium bg-neutral-51 text-white h-9 w-full rounded-md hover:bg-neutral-800 transition-all duration-300">
+                                    <span class="flex items-center justify-center space-x-2">Save changes</span>
+                                </button>
+                            </footer>
+                        </article>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-span-2">
+                <form class="pt-3">
+                    <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-gray-300"></label>
+                    <div class="relative">
+                        <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
+                            <svg class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                            </svg>
+                        </div>
+                        <input type="search" id="default-search"  class="block p-3 pl-10 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-color-main focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="What are you looking for ?" required>
+                        <button type="submit" class="text-white absolute bottom-0 top-0 right-0 bg-main hover:bg-main-hover focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-r-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            <i class="fa-solid fa-magnifying-glass fa-shake fa-lg"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-span-1">
+                <div class="flex justify-end">
+                    <div class="dropdown-header pt-4">
+                        <div class="relative inline-block text-left">
+                            <button id="dropdown-button" class="inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-gray-700  btn_drop_account">
+                                <i class="fa fa-user pr-1 text-sm"></i> Account
+                                <i class="fa-solid fa-chevron-down fa-xs pt-2 pl-1"></i>
+                            </button>
+                            <div id="dropdown-menu"
+                                 class="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
+                                <div class="py-2 p-2" role="menu" aria-orientation="vertical"
+                                     aria-labelledby="dropdown-button">
+                                    <a class="flex rounded-md px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 active:bg-blue-100 cursor-pointer"
+                                       role="menuitem">
+                                        <i class="fa-solid fa-arrow-right-to-bracket pt-1 pr-2"></i> Login User
+                                    </a>
+                                    <a class="flex rounded-md px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 active:bg-blue-100 cursor-pointer"
+                                       role="menuitem">
+                                        <i class="fa-solid fa-hotel pt-1 pr-2"></i> Login Vendor
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown-header pt-4">
+                        <div class="relative inline-block text-left">
+                            <button id="dropdown-button-2"
+                                    class="inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-gray-700  btn_drop_account">
+                                <i class="fa fa-users pr-1 text-sm1 pt-1"></i> Company
+                                <i class="fa-solid fa-chevron-down fa-xs pt-2 pl-1"></i>
+                            </button>
+                            <div id="dropdown-menu-2"
+                                 class="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
+                                <div class="py-2 px-1" role="menu" aria-orientation="vertical"
+                                     aria-labelledby="dropdown-button-2">
+                                    <a class="flex rounded-md px-1 py-2 text-sm text-gray-700 hover:bg-gray-100 active:bg-blue-100 cursor-pointer"
+                                       role="menuitem">
+                                        <i class="fa-solid fa-user pt-1 pr-1"></i> Continue As Individual
+                                    </a>
+                                    <a class="flex rounded-md px-1 py-2 text-sm text-gray-700 hover:bg-gray-100 active:bg-blue-100 cursor-pointer"
+                                       role="menuitem">
+                                        <i class="fa-solid fa-hotel pt-1 pr-1"></i> Continue As Company
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown-header pt-3 flex justify-center items-center">
+                        <div class="relative pl-4">
+                            <a href="#">
+                                <div class="t-0 absolute left-3">
+                                     <p class="flex h-2 w-2 items-center justify-center rounded-full bg-red-500 p-3 text-xs text-white"> 3 </p>
+                                </div>
+                                <i class="fa-solid fa-cart-shopping pt-2 pl-2 text-2xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="bg-main-2 mt-3">
+        <div class="container m-auto">
+            <div class="grid grid-cols-8">
+                <div class="col-span-1">
+                    <div class="flex items-start justify-start">
+                        <div x-data="{ open: false }" class="relative inline-block text-left">
+
+                            <button @click="open = !open" class="inline-flex justify-center w-full px-5 py-4 text-sm text-white bg-main focus:outline-none focus:ring-2 focus:ring-offset-gray-100 focus:ring-blue-500">
+                                <i class="fa-solid fa-bars pt-1 pr-3"></i>  All Category
+                            </button>
+                            <div x-show="open" @click.away="open = false" class="origin-top-left absolute left-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 px-2 py-2">
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md">Building Material</a>
+
+                                <div x-data="{ subMenuOpen: false }" class="static">
+                                    <button @click="subMenuOpen = !subMenuOpen" class="flex justify-between items-center w-full px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 relative rounded-md">
+                                        Precast Concrete
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                    </button>
+                                    <div x-show="subMenuOpen" @click.away="subMenuOpen = false" class="sub_drop absolute top-0 left-full ml-2.5 w-full rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 px-2 py-2">
+                                      <div class="grid grid-cols-4">
+                                          <div class="col-span-3">
+                                              <div class="grid grid-cols-3">
+                                                  <div class="col-span-3">
+                                                      <h3 class="px-4 py-2 text-xl">Precast Concrete</h3>
+                                                  </div>
+                                                  <div class="col-span-1">
+                                                      <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Chimneys and Hoods</a>
+                                                      <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Sinks and mixers</a>
+                                                      <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Accessories</a>
+                                                      <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Storage</a>
+                                                      <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Appliances</a>
+                                                      <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Hardware</a>
+                                                      <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen units</a>
+                                                      <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen units</a>
+                                                      <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Storage</a>
+                                                      <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Accessories</a>
+                                                  </div>
+                                                  <div class="col-span-1">
+                                                      <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Chimneys and Hoods</a>
+                                                      <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Sinks and mixers</a>
+                                                      <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Accessories</a>
+                                                      <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Storage</a>
+                                                      <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Appliances</a>
+                                                      <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Hardware</a>
+                                                      <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen units</a>
+                                                      <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen units</a>
+                                                      <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Storage</a>
+                                                      <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Accessories</a>
+                                                  </div>
+                                                  <div class="col-span-1">
+                                                      <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Chimneys and Hoods</a>
+                                                      <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Sinks and mixers</a>
+                                                      <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Accessories</a>
+                                                      <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Accessories</a>
+                                                      <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Storage</a>
+                                                      <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Appliances</a>
+                                                      <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Hardware</a>
+                                                      <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen units</a>
+                                                      <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Storage</a>
+                                                      <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Accessories</a>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="col-span-1">
+                                              <img src="images/kitchen.webp" alt="" title="" class="max-w-none w-full">
+                                          </div>
+                                      </div>
+                                    </div>
+                                </div>
+
+                                <div x-data="{ subMenuOpen: false }" class="static">
+                                    <button @click="subMenuOpen = !subMenuOpen" class="flex justify-between items-center w-full px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 relative rounded-md">
+                                        Kitchen
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                    </button>
+                                    <div x-show="subMenuOpen" @click.away="subMenuOpen = false" class="sub_drop absolute top-0 left-full ml-2.5 w-full rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 px-2 py-2">
+                                        <div class="grid grid-cols-4">
+                                            <div class="col-span-3">
+                                                <div class="grid grid-cols-3">
+                                                    <div class="col-span-3">
+                                                        <h3 class="px-4 py-2 text-xl">Kitchen</h3>
+                                                    </div>
+                                                    <div class="col-span-1">
+                                                        <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Chimneys and Hoods</a>
+                                                        <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Sinks and mixers</a>
+                                                        <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Accessories</a>
+                                                        <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Accessories</a>
+                                                        <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Storage</a>
+                                                        <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Appliances</a>
+                                                        <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Hardware</a>
+                                                        <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen units</a>
+                                                        <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Storage</a>
+                                                        <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Accessories</a>
+                                                    </div>
+                                                    <div class="col-span-1">
+                                                        <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Chimneys and Hoods</a>
+                                                        <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Sinks and mixers</a>
+                                                        <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Accessories</a>
+                                                        <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Storage</a>
+                                                        <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Appliances</a>
+                                                        <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Hardware</a>
+                                                        <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Hardware</a>
+                                                        <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen units</a>
+                                                        <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Storage</a>
+                                                        <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Accessories</a>
+                                                    </div>
+                                                    <div class="col-span-1">
+                                                        <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Chimneys and Hoods</a>
+                                                        <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Sinks and mixers</a>
+                                                        <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Accessories</a>
+                                                        <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Storage</a>
+                                                        <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Storage</a>
+                                                        <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Appliances</a>
+                                                        <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Hardware</a>
+                                                        <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen units</a>
+                                                        <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Storage</a>
+                                                        <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Accessories</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-span-1">
+                                                <img src="images/Screenshot.webp" alt="" title="" class="max-w-none w-full">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <a href="#" class="block px-4 py-2 text-sm text-red-500 hover:bg-red-100 rounded-md">Paints</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-red-500 hover:bg-red-100 rounded-md">Bathroom</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-red-500 hover:bg-red-100 rounded-md">Electrical</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-red-500 hover:bg-red-100 rounded-md">Carpentry supplies</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-red-500 hover:bg-red-100 rounded-md">Plumbing</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-red-500 hover:bg-red-100 rounded-md">Glass and Facade</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-red-500 hover:bg-red-100 rounded-md">ceiling cladding</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-red-500 hover:bg-red-100 rounded-md">Construction Equipment</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-span-5">
+
+                    <div class="menu_main sm:hidden md:block">
+                        <ul>
+                            <li>
+                                <a href="#" class="text-white font-medium text-base pl-5 hover:text-blue-300">  Plumbing <i class="fa-solid fa-chevron-down fa-xs pt-2.5 pl-1"></i> </a>
+                                <div class="block_menu bg-white absolute right-0 left-0 shadow-lg rounded">
+                                    <div x-show="open" @click.away="open = true" class="origin-top-left absolute left-0 mt-2 w-56 rounded-md bg-white ring-1 ring-black ring-opacity-5 px-2 py-2">
+                                        <div x-data="{ subMenuOpen: true }" class="static">
+                                            <button @click="subMenuOpen = !subMenuOpen" class="flex justify-between items-center w-full px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 relative rounded-md">
+                                                 All Vendor
+                                                <i class="fa-solid fa-chevron-right"></i>
+                                            </button>
+                                            <div x-show="subMenuOpen" @click.away="subMenuOpen = true" class="sub_drop absolute top-0 left-full ml-2.5 w-full rounded-md  bg-white ring-1 ring-black ring-opacity-5 px-2 py-2">
+                                                <div class="grid grid-cols-7">
+                                                    <div class="col-span-4">
+                                                        <div class="logo_vendor">
+                                                           <a href="#"> <img src="images/part.jpg" alt="" title="" class="max-w-none  p-1 w-auto m-auto h-full"> </a>
+                                                        </div>
+                                                        <div class="logo_vendor">
+                                                            <a href="#"> <img src="images/part.jpg" alt="" title="" class="max-w-none  p-1 w-auto m-auto h-full"> </a>
+                                                        </div>
+                                                        <div class="logo_vendor">
+                                                            <a href="#">   <img src="images/part.jpg" alt="" title="" class="max-w-none  p-1 w-auto m-auto h-full"> </a>
+                                                        </div>
+                                                        <div class="logo_vendor">
+                                                            <a href="#">  <img src="images/part.jpg" alt="" title="" class="max-w-none  p-1 w-auto m-auto h-full"> </a>
+                                                        </div>
+                                                        <div class="logo_vendor">
+                                                            <a href="#">   <img src="images/part.jpg" alt="" title="" class="max-w-none  p-1 w-auto m-auto h-full"> </a>
+                                                        </div>
+                                                        <div class="logo_vendor">
+                                                            <a href="#">   <img src="images/part.jpg" alt="" title="" class="max-w-none  p-1 w-auto m-auto h-full"> </a>
+                                                        </div>
+                                                        <div class="logo_vendor">
+                                                            <a href="#"> <img src="images/part.jpg" alt="" title="" class="max-w-none  p-1 w-auto m-auto h-full"> </a>
+                                                        </div>
+                                                        <div class="logo_vendor">
+                                                            <a href="#">   <img src="images/part.jpg" alt="" title="" class="max-w-none  p-1 w-auto m-auto h-full"> </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-span-3">
+                                                        <img src="images/kitchen.webp" alt="" title="" class="max-w-none w-1/2 p-2 h-80 float-start">
+                                                        <img src="images/kitchen.webp" alt="" title="" class="max-w-none w-1/2 p-2 h-80 float-start">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div x-data="{ subMenuOpen: false }" class="static">
+                                            <button @click="subMenuOpen = !subMenuOpen" class="flex justify-between items-center w-full px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 relative rounded-md">
+                                                Kitchen
+                                                <i class="fa-solid fa-chevron-right"></i>
+                                            </button>
+                                            <div x-show="subMenuOpen" @click.away="subMenuOpen = false" class="sub_drop absolute top-0 left-full ml-2.5 w-full rounded-md  bg-white ring-1 ring-black ring-opacity-5 px-2 py-2">
+                                                <div class="grid grid-cols-4">
+                                                    <div class="col-span-3">
+                                                        <div class="grid grid-cols-3">
+                                                            <div class="col-span-3">
+                                                                <h3 class="px-4 py-2 text-xl">Kitchen</h3>
+                                                            </div>
+                                                            <div class="col-span-1">
+                                                                <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Chimneys and Hoods</a>
+                                                                <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Sinks and mixers</a>
+                                                                <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Accessories</a>
+                                                                <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Accessories</a>
+                                                                <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Storage</a>
+                                                                <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Appliances</a>
+                                                                <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Hardware</a>
+                                                                <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen units</a>
+                                                                <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Accessories</a>
+                                                            </div>
+                                                            <div class="col-span-1">
+                                                                <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Chimneys and Hoods</a>
+                                                                <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Accessories</a>
+                                                                <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Storage</a>
+                                                                <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Appliances</a>
+                                                                <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Hardware</a>
+                                                                <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Hardware</a>
+                                                                <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen units</a>
+                                                                <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Storage</a>
+                                                                <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Accessories</a>
+                                                            </div>
+                                                            <div class="col-span-1">
+                                                                <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Chimneys and Hoods</a>
+                                                                <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Sinks and mixers</a>
+                                                                <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Accessories</a>
+                                                                <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Storage</a>
+                                                                <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Storage</a>
+                                                                <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Appliances</a>
+                                                                <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Hardware</a>
+                                                                <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen units</a>
+                                                                <a target="_blank" rel="noopener" href="#" class="flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Kitchen Accessories</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-span-1">
+                                                        <img src="images/Screenshot.webp" alt="" title="" class="max-w-none w-full">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md">Precast Concrete</a>
+                                        <a href="#" class="block px-4 py-2 text-sm text-red-500 hover:bg-red-100 rounded-md">Paints</a>
+                                        <a href="#" class="block px-4 py-2 text-sm text-red-500 hover:bg-red-100 rounded-md">Bathroom</a>
+                                        <a href="#" class="block px-4 py-2 text-sm text-red-500 hover:bg-red-100 rounded-md">Electrical</a>
+                                        <a href="#" class="block px-4 py-2 text-sm text-red-500 hover:bg-red-100 rounded-md">Carpentry supplies</a>
+                                        <a href="#" class="block px-4 py-2 text-sm text-red-500 hover:bg-red-100 rounded-md">Plumbing</a>
+                                        <a href="#" class="block px-4 py-2 text-sm text-red-500 hover:bg-red-100 rounded-md">Glass and Facade</a>
+                                        <a href="#" class="block px-4 py-2 text-sm text-red-500 hover:bg-red-100 rounded-md">ceiling cladding</a>
+                                        <a href="#" class="block px-4 py-2 text-sm text-red-500 hover:bg-red-100 rounded-md">Construction Equipment</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white font-medium text-base pl-5 hover:text-blue-300"> Electrical </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white font-medium text-base pl-5 hover:text-blue-300"> Kitchen </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white font-medium text-base pl-5 hover:text-blue-300"> Concrete </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white font-medium text-base pl-5 hover:text-blue-300"> Paints </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white font-medium text-base pl-5 hover:text-blue-300"> Carpentry supplies </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white font-medium text-base pl-5 hover:text-blue-300"> Hardware </a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+                <div class="col-span-2">
+                    <div class="flex justify-end">
+                        
+                        <div class="flex justify-center items-center">
+                            <div x-data="{ open: false }">
+                                <p class="font-medium text-sm text-center">
+                                    <button x-on:click="open = true" class="block py-4 px-3 mr-2 text-white btn_sell bg-zinc-700">
+                                        <i class="fa-solid fa-sack-dollar"></i> Get Qoute
+                                    </button>
+                                </p>
+                             
+                              <div x-show="open" class="fixed inset-0 z-50 overflow-hidden">
+                            
+                               
+                                <section class="absolute inset-y-0 right-0 pl-10 max-w-full flex">
+                                  <div x-show="open" x-transition:enter="transition-transform ease-out duration-300" x-transition:enter-start="transform translate-x-full" x-transition:enter-end="transform translate-x-0" x-transition:leave="transition-transform ease-in duration-300" x-transition:leave-start="transform translate-x-0" x-transition:leave-end="transform translate-x-full" class="w-screen max-w-sm">
+                                    <div class="h-full flex flex-col py-6 bg-white shadow-xl">
+                                      <button x-on:click="open = false" class="text-gray-500 pl-5 hover:text-gray-700">
+                                          <span class="sr-only">Close</span>
+                                          <svg class="h-6 w-6" x-description="Heroicon name: x" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                                          </svg>
+                                        </button>
+
+                                        <div class="content_getqoute text-center">
+                                            <h3 class="font-medium text-2xl"> Register Quotation! </h3>
+                                            <p class="font-medium text-base"> Login to manage your account.</p>
+
+                                            <form class="mt-3 p-5">
+
+                                                <div class="flex flex-wrap border rounded-lg w-full mb-4 relative h-12 bg-white items-center pr-2">
+                                                    <div class="flex -mr-px justify-center w-10 p-2">
+                                                      <span class="flex items-center leading-normal bg-white px-3 border-0 rounded rounded-r-none text-base text-gray-600" >
+                                                         <i class="fas fa-hotel"></i>
+                                                      </span>
+                                                    </div>
+                                                    <input type="text" class="flex-shrink flex-grow leading-normal w-px border-0 h-10 border-grey-light rounded rounded-l-none px-3 self-center relative  font-roboto text-base outline-none" placeholder="Company Name" />
+
+                                                </div>
+
+                                                <div class="flex flex-wrap border rounded-lg w-full mb-4 relative h-12 bg-white items-center pr-2">
+                                                    <div class="flex -mr-px justify-center w-10 p-2">
+                                                      <span class="flex items-center leading-normal bg-white px-3 border-0 rounded rounded-r-none text-base text-gray-600" >
+                                                         <i class="fas fa-user"></i>
+                                                      </span>
+                                                    </div>
+                                                    <input type="text" class="flex-shrink flex-grow leading-normal w-px border-0 h-10 border-grey-light rounded rounded-l-none px-3 self-center relative  font-roboto text-base outline-none" placeholder="Contact Person" />
+
+                                                </div>
+
+                                                <div class="flex flex-wrap border rounded-lg w-full mb-4 relative h-12 bg-white items-center pr-2">
+                                                    <div class="flex -mr-px justify-center w-10 p-2">
+                                                      <span class="flex items-center leading-normal bg-white px-3 border-0 rounded rounded-r-none text-base text-gray-600" >
+                                                         <i class="fas fa-envelope"></i>
+                                                      </span>
+                                                    </div>
+                                                    <input type="email" class="flex-shrink flex-grow leading-normal w-px border-0 h-10 border-grey-light rounded rounded-l-none px-3 self-center relative  font-roboto text-base outline-none" placeholder="Email" />
+
+                                                </div>
+
+                                                <div class="flex flex-wrap border rounded-lg w-full mb-4 relative h-12 bg-white items-center pr-2">
+                                                    <div class="flex -mr-px justify-center w-10 p-2">
+                                                      <span class="flex items-center leading-normal bg-white px-3 border-0 rounded rounded-r-none text-base text-gray-600" >
+                                                         <i class="fas fa-phone"></i>
+                                                      </span>
+                                                    </div>
+                                                    <input type="text" class="flex-shrink flex-grow leading-normal w-px border-0 h-10 border-grey-light rounded rounded-l-none px-3 self-center relative  font-roboto text-base outline-none" placeholder="No. Phone" />
+
+                                                </div>
+
+                                                <div class="flex flex-wrap border rounded-lg w-full mb-4 relative bg-white items-center pr-2">
+                                                    <div class="flex -mr-px justify-center w-10 p-2">
+                                                      <span class="flex items-center leading-normal bg-white px-3 border-0 rounded rounded-r-none text-base text-gray-600" >
+                                                         <i class="fas fa-note-sticky"></i>
+                                                      </span>
+                                                    </div>
+
+                                                    <textarea rows="3" class="flex-shrink flex-grow leading-normal w-px border-0 border-grey-light rounded rounded-l-none px-3 self-center relative  font-roboto text-base outline-none"> </textarea>
+
+                                                </div>
+
+                                                <div class="flex flex-col justify-center items-center">                                                
+                                                    <div class="flex w-full rounded-lg">
+                                                        <div id="multi-upload-button"
+                                                             class="inline-flex w-1/2 items-center px-4 py-2 bg-main border border-gray-600 rounded-l font-semibold cursor-pointer text-sm text-white tracking-widest hover:bg-black active:bg-gray-900 focus:outline-none focus:border-gray-900 focus:ring focus:ring-gray-300 disabled:opacity-25 transition ">
+                                                            browse file
+                                                        </div>
+                                                        <div class="w-full lg:w-full border border-gray-300 rounded-r-md flex items-center justify-between">
+                                                            <span id="multi-upload-text" class="p-2"></span>
+                                                            <button id="multi-upload-delete" class="hidden" onclick="removeMultiUpload()">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" class="fill-current text-red-700 w-3 h-3"
+                                                                     viewBox="0 0 320 512">
+                                                                    <path
+                                                                            d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/>
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <input type="file" id="multi-upload-input" class="hidden" multiple/>
+                                                </div>
+
+                                                <div class="mt-3">
+                                                    <button class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-base py-3 px-6 rounded-lg bg-main w-full text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none" type="button"> Send Now </button>                                                
+                                                </div>
+                                                
+                                            </form>
+
+                                        </div>
+
+                                    </div>
+                                  </div>
+                                </section>
+                              </div>
+                                                       
+                            </div>
+                          </div>
+
+                        <p class="font-medium text-sm text-center"> <a href="#" class="block py-4 px-3 text-white btn_sell bg-zinc-700"> <img src="images/icon.png" alt="" title="" class="max-w-none float-start pr-2 pt-1">  Sell On Youmats </a> </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="breadcrumb py-2">
+    <div class="container mx-auto">
+        <nav aria-label="breadcrumb" class="w-max">
+            <ol class="flex flex-wrap items-center w-full py-2">
+              <li
+                class="flex items-center font-sans text-sm antialiased font-normal leading-normal transition-colors duration-300 cursor-pointer text-blue-gray-900 hover:text-light-blue-500">
+                <a href="#" class="opacity-60"> <i class="fa fa-home"></i> Home</a>
+                <span class="mx-2 font-sans text-sm antialiased font-normal leading-normal pointer-events-none select-none text-blue-gray-500">/</span>
+              </li>
+              <li
+                class="flex items-center font-sans text-sm antialiased font-normal leading-normal transition-colors duration-300 cursor-pointer text-blue-gray-900 hover:text-light-blue-500">
+                <a href="#" class="opacity-60">plumbing</a>
+                <span  class="mx-2 font-sans text-sm antialiased font-normal leading-normal pointer-events-none select-none text-blue-gray-500">/</span>
+              </li>
+              <li
+                class="flex items-center font-sans text-sm antialiased font-normal leading-normal transition-colors duration-300 cursor-pointer text-blue-gray-900 hover:text-light-blue-500">
+                <a href="#">Pipes and plumbing connections</a>
+                <span  class="mx-2 font-sans text-sm antialiased font-normal leading-normal pointer-events-none select-none text-blue-gray-500">/</span>
+            </li>
+            <li
+                class="flex items-center font-sans text-sm antialiased font-normal leading-normal transition-colors duration-300 cursor-pointer text-blue-gray-900 hover:text-light-blue-500">
+                <a href="#">PVC Pipes and Fittings</a>
+                <span  class="mx-2 font-sans text-sm antialiased font-normal leading-normal pointer-events-none select-none text-blue-gray-500">/</span>
+            </li>
+            <li
+            class="flex items-center font-sans text-sm antialiased font-normal leading-normal transition-colors duration-300 cursor-pointer text-blue-gray-900 hover:text-light-blue-500">
+            <a href="#">PVC Elbow Schedule 80 90° Nibco Size 6 inch Colour Dark Gray</a>
+        </li>
+            </ol>
+          </nav> 
+    </div>    
+</section>
+
+
+<section class="view_products">
+    <div class="container mx-auto">
+        <div class="grid grid-cols-10 gap-4">
+            <div class="col-span-4">
+                <swiper-container style="--swiper-navigation-color: #ddd; --swiper-pagination-color: #ddd" class="mySwiper sliderView" thumbs-swiper=".mySwiper2" loop="true" space-between="10" dir="rtl" navigation="true">
+                <swiper-slide>
+                    <img src="images/slider-1.jpg" alt="youmats" title="youmats" />
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="images/slider-2.jpg" alt="youmats" title="youmats" />
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="images/slider-3.jpg" alt="youmats" title="youmats" />
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="images/slider-4.jpg" alt="youmats" title="youmats" />
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="images/slider-1.jpg" alt="youmats" title="youmats" />
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="images/slider-2.jpg" alt="youmats" title="youmats" />
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="images/slider-3.jpg" alt="youmats" title="youmats" />
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="images/slider-4.jpg" alt="youmats" title="youmats" />
+                </swiper-slide>            
+                </swiper-container>
+            
+                <swiper-container class="mySwiper2 mySwiperView2" loop="true" space-between="10" direction="vertical" slides-per-view="4" free-mode="true" watch-slides-progress="true">
+                <swiper-slide>
+                    <img src="images/slider-1.jpg" alt="youmats" title="youmats" />
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="images/slider-2.jpg" alt="youmats" title="youmats" />
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="images/slider-3.jpg" alt="youmats" title="youmats" />
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="images/slider-4.jpg" alt="youmats" title="youmats" />
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="images/slider-1.jpg" alt="youmats" title="youmats" />
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="images/slider-2.jpg" alt="youmats" title="youmats" />
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="images/slider-3.jpg" alt="youmats" title="youmats" />
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="images/slider-4.jpg" alt="youmats" title="youmats" />
+                </swiper-slide>                
+            </swiper-container>
+
+            <div class="relative ml-24">
+                <div class="absolute top-4 right-4">
+                    <button class="sharebtn relative flex z-10 bg-white border rounded-md p-2 opacity-50 hover:opacity-100 focus:outline-none focus:border-blue-400" title="click to enable menu">                    
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-5 w-6 my-1 text-blue-700">
+                          <path fill="currentColor" d="M352 320c-22.608 0-43.387 7.819-59.79 20.895l-102.486-64.054a96.551 96.551 0 0 0 0-41.683l102.486-64.054C308.613 184.181 329.392 192 352 192c53.019 0 96-42.981 96-96S405.019 0 352 0s-96 42.981-96 96c0 7.158.79 14.13 2.276 20.841L155.79 180.895C139.387 167.819 118.608 160 96 160c-53.019 0-96 42.981-96 96s42.981 96 96 96c22.608 0 43.387-7.819 59.79-20.895l102.486 64.054A96.301 96.301 0 0 0 256 416c0 53.019 42.981 96 96 96s96-42.981 96-96-42.981-96-96-96z">
+                          </path>
+                        </svg>
+                    </button>
+                    <div class="sharebtn-dropdown absolute right-0 mt-0 w-48 bg-white rounded-sm overflow-hidden shadow-lg z-20 hidden border border-gray-100">
+                      <a href="#" title="Share on Facebook (NB! does not work in this demo)" class="flex px-4 py-2 text-sm text-gray-800 border-b hover:bg-blue-100">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-messenger" class="w-5 h-5 mr-4 text-blue-500" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256.55 8C116.52 8 8 110.34 8 248.57c0 72.3 29.71 134.78 78.07 177.94 8.35 7.51 6.63 11.86 8.05 58.23A19.92 19.92 0 0 0 122 502.31c52.91-23.3 53.59-25.14 62.56-22.7C337.85 521.8 504 423.7 504 248.57 504 110.34 396.59 8 256.55 8zm149.24 185.13l-73 115.57a37.37 37.37 0 0 1-53.91 9.93l-58.08-43.47a15 15 0 0 0-18 0l-78.37 59.44c-10.46 7.93-24.16-4.6-17.11-15.67l73-115.57a37.36 37.36 0 0 1 53.91-9.93l58.06 43.46a15 15 0 0 0 18 0l78.41-59.38c10.44-7.98 24.14 4.54 17.09 15.62z"></path></svg>
+                        <span class="text-gray-600">Facebook</span>
+                      </a>
+                      <a href="#" title="Share on Twitter (NB! does not work in this demo)" class="flex px-4 py-2 text-sm text-gray-800 border-b hover:bg-blue-100">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter-square" class="w-5 h-5 mr-4 text-blue-500" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z"></path></svg>
+                        <span class="text-gray-600">Twitter</span>
+                      </a>
+                      <a href="#" title="Share on LinkedIn (NB! does not work in this demo)" class="flex px-4 py-2 text-sm text-gray-800 border-b hover:bg-blue-100">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" class="w-5 h-5 mr-4 text-blue-500" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg>
+                        <span class="text-gray-600">LinkedIn</span>
+                      </a>
+                     </div>
+                </div>                
+              </div>
+
+            </div>
+            <div class="col-span-4">
+                <div class="relative">
+                    <label class="text-gray-600 text-xs"> (898 Product Views) </label>
+                    <h1 class="text-xl text-black py-3">PVC Elbow Schedule 80 90° Nibco Size 6 inch Colour  Dark Gray</h1>
+                    <p class="font-medium text-xs text-gray-500 leading-5 mb-3"> Pipes are long, cylindrical tubes that are used to transport fluids (liquids or gases) or to protect electrical and optical cables and wires. They are typically made of materials such as metal, plastic, or concrete. </p>
+                    <hr>
+                    <ul class="mt-3 list-disc list-outside pl-5 text-sm leading-6">
+                        <li class="font-bold"> Size :  <strong class="font-medium"> 6 inch </strong></li>                        
+                        <li class="font-bold"> Outside diameter :  <strong class="font-medium"> Min. 168 mm </strong></li>      
+                        <li class="font-bold"> Thickness :  <strong class="font-medium"> 13.97 mm </strong></li>                        
+                        <li class="font-bold"> Pressure :  <strong class="font-medium"> 21.7 bar </strong></li>                        
+                        <li class="font-bold"> Length :  <strong class="font-medium"> 6 meters </strong></li>                        
+                        <li class="font-bold"> Color :  <strong class="font-medium"> White </strong></li>                                                                                  
+                    </ul>                
+                    <div class="py-2 my-3 border-t border-b">
+                        <span class="text-blue-500 mr-2 text-xs"> Availability : <strong class="text-green-500 text-xs font-medium"> In Stock </strong></span>
+                        <span class="text-blue-500 mr-2 text-xs"> Vendor : <strong class="text-black text-xs font-medium"> EL Mahill trading co </strong></span>
+                        <span class="text-blue-500 mr-2 text-xs"> Category : <strong class="text-black text-xs font-medium"> PVC elbows </strong></span>
+                    </div>                        
+                </div>
+            </div>
+            <div class="col-span-2">
+               <div class="relative rounded-md shadow-main p-3 mb-4">
+                <h4 class="mb-2"> Vendor </h4>
+                <select class="rounded-full border py-2 px-3 text-xs w-full mb-2">
+                    <option>  EL Mahill trading co </option>
+                    <option>  Name Company </option>
+                    <option>  Name Company </option>
+                </select>
+
+                <select class="rounded-full border py-2 px-3 text-xs w-full mb-2">
+                    <option>  Pressure </option>
+                    <option>  Name Company </option>
+                    <option>  Name Company </option>
+                </select>
+
+                <select class="rounded-full border py-2 px-3 text-xs w-full mb-2">
+                    <option>  Length </option>
+                    <option>  Name Company </option>
+                    <option>  Name Company </option>
+                </select>
+
+                <select class="rounded-full border py-2 px-3 text-xs w-full mb-2">
+                    <option>  Color </option>
+                    <option>  Name Company </option>
+                    <option>  Name Company </option>
+                </select>                
+
+                <h4 class="ml-1"> Quantity </h4>
+                <div class="custom-number-input">
+                    <div class="flex flex-row h-9 w-full rounded-full border border-black relative bg-white mt-1 mb-2">
+                    <button data-action="decrement" class=" bg-white text-gray-600 hover:text-gray-700 hover:bg-gray-400 h-full w-20 rounded-l-full cursor-pointer outline-none">
+                        <span class="m-auto text-2xl font-thin">−</span>
+                    </button>
+                    <input type="number" class="focus:outline-none text-center w-full border-none bg-white font-semibold text-md hover:text-black focus:text-black  md:text-basecursor-default flex items-center text-gray-700  outline-none" name="custom-input-number" value="0"></input>
+                    <button data-action="increment" class="bg-white text-gray-600 hover:text-gray-700 hover:bg-gray-400 h-full w-20 rounded-r-full cursor-pointer">
+                        <span class="m-auto text-2xl font-thin">+</span>
+                    </button>
+                    </div>
+                    </div>
+
+                    <a href="#" class="rounded-full border-2 border-blue-800 text-blue-800 bg-white font-bold text-center w-full block mb-2 py-2 hover:text-white hover:bg-blue-800"> Get Quote </a>
+                    <a href="#" class="rounded-full bg-main font-bold text-white text-center w-full block mb-2 py-2 hover:text-whit">  <i class="fa-solid fa-cart-shopping"></i> Add To Cart </a>
+
+                    <p class="mt-4 mb-2 text-xs">100% Guarantee Safe Checkout</p>   
+                    <img src="images/visa.jpg" alt="" title="" width="200">  
+
+                </div>            
+            </div>
+        </div>
+
+        <div class="grid grid-cols-4 gap-4">
+            <div class="col-span-1">
+                <div class="w-full border mt-3 p-2 flex justify-center rounded-md mb-4 hover:border-black">
+                    <a href="#"> <img src="images/top-4.webp" alt="youmats" title="youmats" width="150" height="100" class="w-28"> </a>
+                    <div class="float-start">
+                        <h3 class="text-xs pt-3"> <a href="#"> UPVC Pipes Al-Rajhi Nominal Pressure 4 Bar Outside  </a> </h3>
+                        <label class="font-bold text-sm text-blue-950"> SAR 999,9999 </label>
+                    </div>
+                </div>                
+            </div>        
+            <div class="col-span-1">
+                <div class="w-full border mt-3 p-2 flex justify-center rounded-md mb-4 hover:border-black">
+                    <a href="#"> <img src="images/top-4.webp" alt="youmats" title="youmats" width="150" height="100" class="w-28"> </a>
+                    <div class="float-start">
+                        <h3 class="text-xs pt-3"> <a href="#"> UPVC Pipes Al-Rajhi Nominal Pressure 4 Bar Outside  </a> </h3>
+                        <label class="font-bold text-sm text-blue-950"> SAR 999,9999 </label>
+                    </div>
+                </div>                
+            </div>
+            <div class="col-span-1">
+                 <label class="text-left font-bold block mt-7">Total price: SAR 575.0</label>   
+                 <span class="text-blue-800 font-bold block"> <a href="#"> <i class="fa-solid fa-cart-shopping"></i> Add To Card  </a> </span>
+            </div>
+
+        </div>
+
+
+        <div class="grid grid-cols-1 gap-4">
+            <div class="col-span-1">
+                <div class="des_products shadow-main rounded-md p-4 mb-4">
+                    <h3 class="font-bold text-base mb-3"> About Products </h3>
+                    <p class="mb-3 font-medium text-sm"> Elbow 90° (S x S) PVC Schedule 80 Brand Nibco Elbow 90° (S x S) PVC Schedule 80 Size 6 inch Brand Nibco, is an injection molded thermoplastic fitting for use with chemical processing, industrial plating, chilled water distribution, deionized water lines, chemical drainage and waste water treatment systems. Elbow 90° (S x S) PVC Schedule 80 Brand Nibco </p>    
+                    <p class="mb-3 font-medium text-sm"> Elbow 90° (S x S) PVC Schedule 80 Size 6 inch Brand Nibco, is an injection molded thermoplastic fitting for use with chemical processing, industrial plating, chilled water distribution, deionized water lines, chemical drainage and waste water treatment systems. </p>    
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="top_category mb-5">
+    <div class="container mx-auto">
+        <h3 class="relative pb-3 my-3 border-b text-2xl font-bold mt-3 tit-top-gatefory"> Related Products </h3>
+
+        <div class="grid grid-cols-6 gap-4">
+            <div class="col-span-1">
+                <div class="lage-block-building relative bg-white shadow-main rounded-md">
+                    <div class="im_block_building flex align-middle text-center py-5">
+                        <a href="#" class="block w-full"> <img src="images/gat-1.webp" alt="" title="" class="max-w-none m-auto w-1/2"> </a>
+                    </div>
+                    <div class="text-left px-2 pb-2">
+                        <h3 class="text-sm h-58 overflow-hidden"> <a href="#">  Heavy Load Bearing Red Bricks  For Building Al-khayyat   Factory </a> </h3>
+                        <label class="font-medium text-base text-red-700 mt-2 pt-2 border-t block">  SAR.65,208 <small class="text-sm text-black line-through ml-3"> sar.66,000  </small>  </label>
+                    </div>
+
+                    <div class="icon-cart absolute opacity-0 right-3 top-1">
+                        <a href="#" class="block text-center pt-2 w-10 h-10 rounded-full text-base border my-3 border-gray-200 hover:bg-gray-200"> <i class="fa-solid fa-cart-shopping fa-bounce"></i> </a>
+                        <a href="#" class="block text-center pt-2 w-10 h-10 rounded-full text-base border my-3 border-gray-200 hover:bg-gray-200"> <i class="fa-solid fa-heart fa-bounce"></i> </a>
+                    </div>    
+               </div>   
+            </div>                            
+
+            <div class="col-span-1">
+                <div class="lage-block-building relative bg-white shadow-main rounded-md">
+                    <div class="im_block_building flex align-middle text-center py-5">
+                        <a href="#" class="block w-full"> <img src="images/gat-2.webp" alt="" title="" class="max-w-none m-auto w-1/2"> </a>
+                    </div>
+                    <div class="text-left px-2 pb-2">
+                        <h3 class="text-sm h-58 overflow-hidden"> <a href="#">  Heavy Load Bearing Red Bricks  For Building Al-khayyat   Factory </a> </h3>
+                        <label class="font-medium text-base text-red-700 mt-2 pt-2 text-color-main border-t block"> <a href="#">   Get Qoute <small class="text-lg float-end"> <i class="fa-solid fa-arrow-right-long pt-1 fa-fade"></i>  </small>  </a> </label>
+                    </div>
+
+                    <div class="icon-cart absolute opacity-0 right-3 top-1">
+                        <a href="#" class="block text-center pt-2 w-10 h-10 rounded-full text-base border my-3 border-gray-200 hover:bg-gray-200"> <i class="fa-solid fa-cart-shopping fa-bounce"></i> </a>
+                        <a href="#" class="block text-center pt-2 w-10 h-10 rounded-full text-base border my-3 border-gray-200 hover:bg-gray-200"> <i class="fa-solid fa-heart fa-bounce"></i> </a>
+                    </div>    
+               </div>   
+            </div>
+
+            <div class="col-span-1">
+                <div class="lage-block-building relative bg-white shadow-main rounded-md">
+                    <div class="im_block_building flex align-middle text-center py-5">
+                        <a href="#" class="block w-full"> <img src="images/gat-3.webp" alt="" title="" class="max-w-none m-auto w-1/2"> </a>
+                    </div>
+                    <div class="text-left px-2 pb-2">
+                        <h3 class="text-sm h-58 overflow-hidden"> <a href="#">  Heavy Load Bearing Red Bricks  For Building Al-khayyat   Factory </a> </h3>
+                        <label class="font-medium text-lg text-red-700 mt-2 text-color-main overflow-hidden flex gap-2"> 
+                            <a href="#" class="block rounded-lg py-1 text-center text-base  w-1/2 border text-blue-700 border-blue-700 hover:bg-blue-700 hover:text-white">  <i class="fa-solid fa-phone"></i> Call   </a> 
+                            <a href="#" class="block rounded-lg py-1 text-center text-base w-1/2 border text-green-700 border-green-700  hover:bg-green-700 hover:text-white">  <i class="fa-brands fa-whatsapp"></i> Chat   </a> 
+                        </label>
+                    </div>
+
+                    <div class="icon-cart absolute opacity-0 right-3 top-1">
+                        <a href="#" class="block text-center pt-2 w-10 h-10 rounded-full text-base border my-3 border-gray-200 hover:bg-gray-200"> <i class="fa-solid fa-cart-shopping fa-bounce"></i> </a>
+                        <a href="#" class="block text-center pt-2 w-10 h-10 rounded-full text-base border my-3 border-gray-200 hover:bg-gray-200"> <i class="fa-solid fa-heart fa-bounce"></i> </a>
+                    </div>    
+               </div>   
+            </div>
+
+            <div class="col-span-1">
+                <div class="lage-block-building relative bg-white shadow-main rounded-md">
+                    <div class="im_block_building flex align-middle text-center py-5">
+                        <a href="#" class="block w-full"> <img src="images/gat-4.webp" alt="" title="" class="max-w-none m-auto w-1/2"> </a>
+                    </div>
+                    <div class="text-left px-2 pb-2">
+                        <h3 class="text-sm h-58 overflow-hidden"> <a href="#">  Heavy Load Bearing Red Bricks  For Building Al-khayyat   Factory </a> </h3>
+                        <label class="font-medium text-base text-red-700 mt-2 pt-2 border-t block">  SAR.65,208 <small class="text-sm text-black line-through ml-3"> sar.66,000  </small>  </label>
+                    </div>
+
+                    <div class="icon-cart absolute opacity-0 right-3 top-1">
+                        <a href="#" class="block text-center pt-2 w-10 h-10 rounded-full text-base border my-3 border-gray-200 hover:bg-gray-200"> <i class="fa-solid fa-cart-shopping fa-bounce"></i> </a>
+                        <a href="#" class="block text-center pt-2 w-10 h-10 rounded-full text-base border my-3 border-gray-200 hover:bg-gray-200"> <i class="fa-solid fa-heart fa-bounce"></i> </a>
+                    </div>    
+               </div>   
+            </div>  
+
+            <div class="col-span-1">
+                <div class="lage-block-building relative bg-white shadow-main rounded-md">
+                    <div class="im_block_building flex align-middle text-center py-5">
+                        <a href="#" class="block w-full"> <img src="images/gat-1.webp" alt="" title="" class="max-w-none m-auto w-1/2"> </a>
+                    </div>
+                    <div class="text-left px-2 pb-2">
+                        <h3 class="text-sm h-58 overflow-hidden"> <a href="#">  Heavy Load Bearing Red Bricks  For Building Al-khayyat   Factory </a> </h3>
+                        <label class="font-medium text-base text-red-700 mt-2 pt-2 border-t block">  SAR.65,208 <small class="text-sm text-black line-through ml-3"> sar.66,000  </small>  </label>
+                    </div>
+
+                    <div class="icon-cart absolute opacity-0 right-3 top-1">
+                        <a href="#" class="block text-center pt-2 w-10 h-10 rounded-full text-base border my-3 border-gray-200 hover:bg-gray-200"> <i class="fa-solid fa-cart-shopping fa-bounce"></i> </a>
+                        <a href="#" class="block text-center pt-2 w-10 h-10 rounded-full text-base border my-3 border-gray-200 hover:bg-gray-200"> <i class="fa-solid fa-heart fa-bounce"></i> </a>
+                    </div>    
+               </div>   
+            </div>                            
+
+            <div class="col-span-1">
+                <div class="lage-block-building relative bg-white shadow-main rounded-md">
+                    <div class="im_block_building flex align-middle text-center py-5">
+                        <a href="#" class="block w-full"> <img src="images/gat-2.webp" alt="" title="" class="max-w-none m-auto w-1/2"> </a>
+                    </div>
+                    <div class="text-left px-2 pb-2">
+                        <h3 class="text-sm h-58 overflow-hidden"> <a href="#">  Heavy Load Bearing Red Bricks  For Building Al-khayyat   Factory </a> </h3>
+                        <label class="font-medium text-lg text-red-700 mt-2 pt-2 text-color-main border-t block"> <a href="#">   Get Qoute <small class="text-lg float-end"> <i class="fa-solid fa-arrow-right-long pt-1 fa-fade"></i>  </small>  </a> </label>
+                    </div>
+
+                    <div class="icon-cart absolute opacity-0 right-3 top-1">
+                        <a href="#" class="block text-center pt-2 w-10 h-10 rounded-full text-base border my-3 border-gray-200 hover:bg-gray-200"> <i class="fa-solid fa-cart-shopping fa-bounce"></i> </a>
+                        <a href="#" class="block text-center pt-2 w-10 h-10 rounded-full text-base border my-3 border-gray-200 hover:bg-gray-200"> <i class="fa-solid fa-heart fa-bounce"></i> </a>
+                    </div>    
+               </div>   
+            </div>
+
+            <div class="col-span-1">
+                <div class="lage-block-building relative bg-white shadow-main rounded-md">
+                    <div class="im_block_building flex align-middle text-center py-5">
+                        <a href="#" class="block w-full"> <img src="images/gat-3.webp" alt="" title="" class="max-w-none m-auto w-1/2"> </a>
+                    </div>
+                    <div class="text-left px-2 pb-2">
+                        <h3 class="text-sm h-58 overflow-hidden"> <a href="#">  Heavy Load Bearing Red Bricks  For Building Al-khayyat   Factory </a> </h3>
+                        <label class="font-medium text-lg text-red-700 mt-2 pt-1 text-color-main overflow-hidden flex gap-2"> 
+                            <a href="#" class="block rounded-lg py-1 text-center text-base  w-1/2 border text-blue-700 border-blue-700 hover:bg-blue-700 hover:text-white">  <i class="fa-solid fa-phone"></i> Call   </a> 
+                            <a href="#" class="block rounded-lg py-1 text-center text-base w-1/2 border text-green-700 border-green-700  hover:bg-green-700 hover:text-white">  <i class="fa-brands fa-whatsapp"></i> Chat   </a> 
+                        </label>
+                    </div>
+
+                    <div class="icon-cart absolute opacity-0 right-3 top-1">
+                        <a href="#" class="block text-center pt-2 w-10 h-10 rounded-full text-base border my-3 border-gray-200 hover:bg-gray-200"> <i class="fa-solid fa-cart-shopping fa-bounce"></i> </a>
+                        <a href="#" class="block text-center pt-2 w-10 h-10 rounded-full text-base border my-3 border-gray-200 hover:bg-gray-200"> <i class="fa-solid fa-heart fa-bounce"></i> </a>
+                    </div>    
+               </div>   
+            </div>
+
+            <div class="col-span-1">
+                <div class="lage-block-building relative bg-white shadow-main rounded-md">
+                    <div class="im_block_building flex align-middle text-center py-5">
+                        <a href="#" class="block w-full"> <img src="images/gat-4.webp" alt="" title="" class="max-w-none m-auto w-1/2"> </a>
+                    </div>
+                    <div class="text-left px-2 pb-2">
+                        <h3 class="text-sm h-58 overflow-hidden"> <a href="#">  Heavy Load Bearing Red Bricks  For Building Al-khayyat   Factory </a> </h3>
+                        <label class="font-medium text-base text-red-700 mt-2 pt-2 border-t block">  SAR.65,208 <small class="text-sm text-black line-through ml-3"> sar.66,000  </small>  </label>
+                    </div>
+
+                    <div class="icon-cart absolute opacity-0 right-3 top-1">
+                        <a href="#" class="block text-center pt-2 w-10 h-10 rounded-full text-base border my-3 border-gray-200 hover:bg-gray-200"> <i class="fa-solid fa-cart-shopping fa-bounce"></i> </a>
+                        <a href="#" class="block text-center pt-2 w-10 h-10 rounded-full text-base border my-3 border-gray-200 hover:bg-gray-200"> <i class="fa-solid fa-heart fa-bounce"></i> </a>
+                    </div>    
+               </div>   
+            </div>  
+
+            <div class="col-span-1">
+                <div class="lage-block-building relative bg-white shadow-main rounded-md">
+                    <div class="im_block_building flex align-middle text-center py-5">
+                        <a href="#" class="block w-full"> <img src="images/gat-1.webp" alt="" title="" class="max-w-none m-auto w-1/2"> </a>
+                    </div>
+                    <div class="text-left px-2 pb-2">
+                        <h3 class="text-sm h-58 overflow-hidden"> <a href="#">  Heavy Load Bearing Red Bricks  For Building Al-khayyat   Factory </a> </h3>
+                        <label class="font-medium text-base text-red-700 mt-2 pt-2 border-t block">  SAR.65,208 <small class="text-sm text-black line-through ml-3"> sar.66,000  </small>  </label>
+                    </div>
+
+                    <div class="icon-cart absolute opacity-0 right-3 top-1">
+                        <a href="#" class="block text-center pt-2 w-10 h-10 rounded-full text-base border my-3 border-gray-200 hover:bg-gray-200"> <i class="fa-solid fa-cart-shopping fa-bounce"></i> </a>
+                        <a href="#" class="block text-center pt-2 w-10 h-10 rounded-full text-base border my-3 border-gray-200 hover:bg-gray-200"> <i class="fa-solid fa-heart fa-bounce"></i> </a>
+                    </div>    
+               </div>   
+            </div>                            
+
+            <div class="col-span-1">
+                <div class="lage-block-building relative bg-white shadow-main rounded-md">
+                    <div class="im_block_building flex align-middle text-center py-5">
+                        <a href="#" class="block w-full"> <img src="images/gat-2.webp" alt="" title="" class="max-w-none m-auto w-1/2"> </a>
+                    </div>
+                    <div class="text-left px-2 pb-2">
+                        <h3 class="text-sm h-58 overflow-hidden"> <a href="#">  Heavy Load Bearing Red Bricks  For Building Al-khayyat   Factory </a> </h3>
+                        <label class="font-medium text-lg text-red-700 mt-2 pt-2 text-color-main border-t block"> <a href="#">   Get Qoute <small class="text-lg float-end"> <i class="fa-solid fa-arrow-right-long pt-1 fa-fade"></i>  </small>  </a> </label>
+                    </div>
+
+                    <div class="icon-cart absolute opacity-0 right-3 top-1">
+                        <a href="#" class="block text-center pt-2 w-10 h-10 rounded-full text-base border my-3 border-gray-200 hover:bg-gray-200"> <i class="fa-solid fa-cart-shopping fa-bounce"></i> </a>
+                        <a href="#" class="block text-center pt-2 w-10 h-10 rounded-full text-base border my-3 border-gray-200 hover:bg-gray-200"> <i class="fa-solid fa-heart fa-bounce"></i> </a>
+                    </div>    
+               </div>   
+            </div>
+
+            <div class="col-span-1">
+                <div class="lage-block-building relative bg-white shadow-main rounded-md">
+                    <div class="im_block_building flex align-middle text-center py-5">
+                        <a href="#" class="block w-full"> <img src="images/gat-3.webp" alt="" title="" class="max-w-none m-auto w-1/2"> </a>
+                    </div>
+                    <div class="text-left px-2 pb-2">
+                        <h3 class="text-sm h-58 overflow-hidden"> <a href="#">  Heavy Load Bearing Red Bricks  For Building Al-khayyat   Factory </a> </h3>
+                        <label class="font-medium text-lg text-red-700 mt-2 pt-1 text-color-main overflow-hidden flex gap-2"> 
+                            <a href="#" class="block rounded-lg py-1 text-center text-base  w-1/2 border text-blue-700 border-blue-700 hover:bg-blue-700 hover:text-white">  <i class="fa-solid fa-phone"></i> Call   </a> 
+                            <a href="#" class="block rounded-lg py-1 text-center text-base w-1/2 border text-green-700 border-green-700  hover:bg-green-700 hover:text-white">  <i class="fa-brands fa-whatsapp"></i> Chat   </a> 
+                        </label>
+                    </div>
+
+                    <div class="icon-cart absolute opacity-0 right-3 top-1">
+                        <a href="#" class="block text-center pt-2 w-10 h-10 rounded-full text-base border my-3 border-gray-200 hover:bg-gray-200"> <i class="fa-solid fa-cart-shopping fa-bounce"></i> </a>
+                        <a href="#" class="block text-center pt-2 w-10 h-10 rounded-full text-base border my-3 border-gray-200 hover:bg-gray-200"> <i class="fa-solid fa-heart fa-bounce"></i> </a>
+                    </div>    
+               </div>   
+            </div>
+
+            <div class="col-span-1">
+                <div class="lage-block-building relative bg-white shadow-main rounded-md">
+                    <div class="im_block_building flex align-middle text-center py-5">
+                        <a href="#" class="block w-full"> <img src="images/gat-4.webp" alt="" title="" class="max-w-none m-auto w-1/2"> </a>
+                    </div>
+                    <div class="text-left px-2 pb-2">
+                        <h3 class="text-sm h-58 overflow-hidden"> <a href="#">  Heavy Load Bearing Red Bricks  For Building Al-khayyat   Factory </a> </h3>
+                        <label class="font-medium text-base text-red-700 mt-2 pt-2 border-t block">  SAR.65,208 <small class="text-sm text-black line-through ml-3"> sar.66,000  </small>  </label>
+                    </div>
+
+                    <div class="icon-cart absolute opacity-0 right-3 top-1">
+                        <a href="#" class="block text-center pt-2 w-10 h-10 rounded-full text-base border my-3 border-gray-200 hover:bg-gray-200"> <i class="fa-solid fa-cart-shopping fa-bounce"></i> </a>
+                        <a href="#" class="block text-center pt-2 w-10 h-10 rounded-full text-base border my-3 border-gray-200 hover:bg-gray-200"> <i class="fa-solid fa-heart fa-bounce"></i> </a>
+                    </div>    
+               </div>   
+            </div> 
+            
+            
+        </div>
+
+    </div>
+</section>
+
+
+<footer class="bg-main-2 shadow-main">
+        <section class=" bg-white info-footer py-6"> 
+            <div class="container mx-auto">
+                <div class="grid grid-cols-4 gap-4">
+                    <div class="col-span-1">
+                        <img src="images/logo.png" alt="" title="" class="max-w-none" width="200" />
+                    </div>
+                    <div class="col-span-3">
+                        
+    
+                        <div class="flex justify-end">
+                           
+        
+                            <div class="overflow-hidden ml-7 w-1/3">
+                                <i class="fa-solid fa-phone float-start text-3xl"></i>
+                                <div class="float-start ml-3 w-4/5">                            
+                                    <a href="#"> (+966)115216216 </a> 
+                                    <a href="#"> (+966)115216215</a>
+                                </div>
+                            </div>
+    
+                            <div class="overflow-hidden ml-7 w-1/3">
+                                <i class="fa-regular fa-envelope float-start text-3xl"></i>
+                                <div class="float-start ml-3">
+                                    <h3 class="font-bold text-sm">E-mail Address</h3>
+                                    <a href="#"> info@youmats.com </a>
+                                </div>
+                            </div>
+        
+                            <div class="overflow-hidden ml-7 w-1/2">                        
+                                <i class="fa-solid fa-location-dot float-start text-4xl"></i>
+                                <div class="float-start ml-3 w-5/6">
+                                    <h3 class="font-medium text-xs">Building No 6249- Hamzah Ibn Abdul Muttalib Street, Dhahrat Al Badi'ah,Riyadh 12982, Saudi Arabia</h3>                            
+                                </div>
+                            </div>
+                        </div>
+    
+                       
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="content-foote">
+            <div class="container mx-auto">
+                <div class="grid grid-cols-4 gap-4">
+                    <div class="col-span-1 py-6">
+                        <h3 class="text-white font-bold text-2xl mb-4"> YouMats </h3>
+                        <p class="font-medium text-base text-white mb-6"> YouMats is the largest online building materials platform in Saudi Arabia; the platform was established in 2018 as a guide  </p>
+                        <div class="text-left text-white text-3xl my-6">
+                            <a href="#" class=""> <i class="fa-brands fa-facebook fa-bounce"></i> </a>
+                            <a href="#" class=""> <i class="fa-brands fa-x-twitter fa-bounce"></i> </a>
+                            <a href="#" class=""> <i class="fa-brands fa-instagram fa-bounce"></i> </a>
+                            <a href="#" class=""> <i class="fa-brands fa-linkedin fa-bounce"></i> </a>
+                        </div>
+                    </div>
+                    <div class="col-span-1 py-6">
+                        <h3 class="text-white font-bold text-2xl mb-4"> Find It Fast </h3>
+                        <a href="#" class="block pb-1 text-white hover:underline hover:text-gray-200"> Building Material </a>
+                        <a href="#" class="block pb-1 text-white hover:underline hover:text-gray-200">  Plumbing </a>
+                        <a href="#" class="block pb-1 text-white hover:underline hover:text-gray-200">  KitchenKitchen </a>
+                        <a href="#" class="block pb-1 text-white hover:underline hover:text-gray-200">  Paints </a>
+                        <a href="#" class="block pb-1 text-white hover:underline hover:text-gray-200">  Electrical </a>
+                        <a href="#" class="block pb-1 text-white hover:underline hover:text-gray-200">  Plastics Products </a>
+                        
+                    </div>
+                    <div class="col-span-1 py-6">
+                        <h3 class="text-white font-bold text-2xl mb-4"> Customer Care </h3>
+                        <a href="#" class="block pb-1 text-white hover:underline hover:text-gray-200">  My Account </a>
+                        <a href="#" class="block pb-1 text-white hover:underline hover:text-gray-200">  Our Team </a>
+                        <a href="#" class="block pb-1 text-white hover:underline hover:text-gray-200">  About Us </a>
+                        <a href="#" class="block pb-1 text-white hover:underline hover:text-gray-200">  Terms and Conditions </a>
+                        <a href="#" class="block pb-1 text-white hover:underline hover:text-gray-200">  Privacy Policy </a>
+                        <a href="#" class="block pb-1 text-white hover:underline hover:text-gray-200">  Delivery and shipping policy </a>
+                        
+                    </div>
+                    <div class="col-span-1 py-6">
+                        <h3 class="text-white font-bold text-2xl mb-4"> YouMats </h3>
+                        <p class="font-medium text-base text-white mb-2"> Secured Payment Gateways  </p>
+                        <img src="images/visa.jpg" alt="" title="" width="200" />
+                        <p class="font-medium text-base text-white mt-3 mb-2"> Sign Up For Newsletter  </p>
+    
+                        <form>
+                            <form method="#" action="" class="flex flex-col space-y-8 mt-2">
+                                <div class="flex flex-col gap-y-8 h-12 space-x-2 w-auto">
+                                    <input type="email" id="email" name="email" required class="bg-transparent border-2 border-b-gray-200 rounded-md py-3 px-6 text-base  placeholder:text-white text-white" placeholder="E-mail Address"/>
+                                </div>
+                            
+                            </form>
+                        </form>
+    
+                    </div>        
+                </div>                        
+                <hr>
+            </div>        
+        </section>
+    
+        <section class="copyright">
+            <p class="text-center text-white text-base py-4"> © 2024,YouMats All rights reserved </p>
+        </section>
+</footer>
+
+    
+<script src="js/jquery-3.6.0.min.js"></script>
+<!---- Start Map --->
+<script src="js/mapdata.js"></script>
+<script src="js/countrymap.js"></script>
+<!---- End Map --->
+<script defer src="js/cdn.min.js"></script>
+<script src="js/flowbite.min.js"></script>
+<script src="js/swiper-element-bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+
+
+</body>
+</html>
