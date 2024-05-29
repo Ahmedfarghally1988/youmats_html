@@ -71,6 +71,7 @@ document.addEventListener('keydown', (event) => {
 
 })
 
+
 document.addEventListener("alpine:init", () => {
     Alpine.data("select", () => ({
         open: false,
@@ -231,3 +232,28 @@ function decrement(e) {
   incrementButtons.forEach(btn => {
     btn.addEventListener("click", increment);
   });
+
+
+  function btnCategory() {
+    var element = document.getElementById("show-menu-cat");
+    element.classList.toggle("showmenucat");
+ }
+
+    function myFunctionSearch() {
+    var element = document.getElementById("overlay-bg");    
+    element.classList.add("!block");
+
+    var element = document.getElementById("showBoxSearch");    
+    element.classList.add("!block");
+
+    }
+
+   
+    function myFunctionHidden() {
+    var element = document.getElementById("overlay-bg");    
+    element.classList.remove("!block");     
+
+    var element = document.getElementById("showBoxSearch");    
+    element.classList.remove("!block");  
+    
+    }
